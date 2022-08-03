@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/index.ts", "index.ts"],
+  "sourcesContent": ["/*\n * @Author: tackchen\n * @Date: 2022-08-03 20:33:13\n * @Description: Coding something\n */\nconsole.log('Hello world!');\n\nexport default 'Hello Ebuild!';", "/*\n * @Author: tackchen\n * @Date: 2022-08-03 20:32:39\n * @Description: Coding something\n */\n\nimport main from '../../src/index';\n\nconst win = (window as any);\n\nwin.main = main;\n\nconsole.log(main);\n"],
+  "mappings": ";AAKA,QAAQ,IAAI,cAAc;AAE1B,IAAO,cAAQ;;;ACCf,IAAM,MAAO;AAEb,IAAI,OAAO;AAEX,QAAQ,IAAI,WAAI;",
+  "names": []
+}
