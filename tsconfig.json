@@ -20,7 +20,9 @@
         "types": ["node"],
         "rootDir": ".",
         "noEmit": false,
-        "paths": {}
+        "paths": {
+            "src/*": ["src/*"]
+        }
     },
     "include": [
         ".eslintrc.js",
